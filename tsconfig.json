@@ -4,8 +4,10 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,                        
-    "skipLibCheck": true,
-    "outDir": "build"               
+    "strict": true,          
+    "outDir": "build",
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,            
   }
 }
